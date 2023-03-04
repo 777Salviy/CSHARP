@@ -6,3 +6,7 @@
 // ● -3 -> 9
 // ● -7 -> 49
 
+Console.WriteLine ("Введите число: ");
+int i = Convert.ToInt32(Console.ReadLine ());
+int num = i*i;
+Console.WriteLine (num);
