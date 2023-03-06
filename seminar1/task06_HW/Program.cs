@@ -5,3 +5,14 @@
 // -3 -> нет
 // 7 -> нет
 
+Console.WriteLine("Введите число: ");
+int number = int.Parse (Console.ReadLine());
+
+if (number % 2 == 0)
+{
+    Console.WriteLine("Чётное число");
+}
+else
+{
+    Console.WriteLine("Нечётное число");
+}
